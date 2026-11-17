@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       pedcat-utilidades
  * Description:       Funcionalidades propias del blog Implantación de Aplicaciones Web: caja de contacto al final de las entradas, código corto [anio], ocultación de la versión de WordPress y pantalla de acceso personalizada.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Requires at least: 6.7
  * Requires PHP:      8.0
  * Author:            Pedro Catalán Catalán

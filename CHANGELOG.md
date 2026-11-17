@@ -2,6 +2,9 @@
 
 Cambios importantes de pedcat-utilidades, de la versión más reciente a la más antigua.
 
+## [1.1.1] - 2026-11-17
+- Corrige la tilde de «Escríbeme» en la caja de contacto, petición 3 (CP-01).
+
 ## [1.1.0] - 2026-11-17
 
 ### Cambiado
