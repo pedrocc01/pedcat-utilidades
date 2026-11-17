@@ -79,3 +79,9 @@ function pedcat_login_aviso( $message ) {
 	return $message . '<p class="message">' . esc_html( $aviso ) . '</p>';
 }
 add_filter( 'login_message', 'pedcat_login_aviso' );
+
+/**
+ * Ampliación: quitar la versión también del feed RSS. La petición 5 solo la
+ * quitaba de wp_head; el feed la escribe con la_función the_generator.
+ */
+add_filter( 'the_generator', '__return_empty_string' );
