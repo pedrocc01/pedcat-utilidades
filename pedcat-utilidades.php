@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       pedcat-utilidades
  * Description:       Funcionalidades propias del blog Implantación de Aplicaciones Web: caja de contacto al final de las entradas, código corto [anio], ocultación de la versión de WordPress y pantalla de acceso personalizada.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 6.7
  * Requires PHP:      8.0
  * Author:            Pedro Catalán Catalán
@@ -82,6 +82,6 @@ add_filter( 'login_message', 'pedcat_login_aviso' );
 
 /**
  * Ampliación: quitar la versión también del feed RSS. La petición 5 solo la
- * quitaba de wp_head; el feed la escribe con la_función the_generator.
+ * quitaba de wp_head; el feed la escribe con la función the_generator.
  */
 add_filter( 'the_generator', '__return_empty_string' );
